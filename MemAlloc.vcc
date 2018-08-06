@@ -1,0 +1,38 @@
+; CLW file contains information for the MFC ClassWizard
+
+[General Info]
+Version=1
+LastClass=CMemAllocDlg
+LastTemplate=CDialog
+NewFileInclude1=#include "stdafx.h"
+NewFileInclude2=#include "MemAlloc.h"
+
+ClassCount=3
+Class1=CMemAllocApp
+Class2=CMemAllocDlg
+
+ResourceCount=3
+Resource2=IDR_MAINFRAME
+Resource3=IDD_MEMALLOC_DIALOG
+
+[CLS:CMemAllocApp]
+Type=0
+HeaderFile=MemAlloc.h
+ImplementationFile=MemAlloc.cpp
+Filter=N
+
+[CLS:CMemAllocDlg]
+Type=0
+HeaderFile=MemAllocDlg.h
+ImplementationFile=MemAllocDlg.cpp
+Filter=D
+BaseClass=CDialog
+VirtualFilter=dWC
+
+
+[DLG:IDD_MEMALLOC_DIALOG]
+Type=1
+Class=CMemAllocDlg
+ControlCount=1
+Control1=IDC_OK,button,1342242816
+
